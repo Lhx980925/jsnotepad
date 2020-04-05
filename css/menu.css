@@ -1,0 +1,110 @@
+.menu {
+  background-color: white;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  user-select: none;
+  z-index: 5;
+  height:30px;
+  font-size:13px;
+}
+
+.file,.edit,.layout,.search,.help {
+  float:left;
+  width:60px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+}
+
+.file:hover,
+.edit:hover,
+.layout:hover,
+.search:hover,
+.help:hover {
+  background-color:#cce8ff;
+}
+
+li {
+  list-style:none;
+}
+
+.file2 {
+  position:absolute;
+  background-color:#f2f2f2;
+  width:110px;
+  left:0;
+  display:none;
+  z-index:6;
+  top:17px;
+  box-shadow: 5px 5px 5px #a6a6a6;
+}
+
+.edit2 {
+  position:absolute;
+  background-color:#f2f2f2;
+  width:110px;
+  left:60px;
+  display:none;
+  z-index:6;
+  top:17px;
+  box-shadow: 5px 5px 5px #a6a6a6;
+}
+
+.layout2 {
+  position: absolute;
+  background-color:#f2f2f2;
+  width:110px;
+  left:120px;
+  display:none;
+  z-index:6;
+  top:17px;
+  box-shadow: 5px 5px 5px #a6a6a6;
+}
+
+.search2 {
+  position:absolute;
+  background-color:#f2f2f2;
+  width:110px;
+  left:180px;
+  display:none;
+  z-index:6;
+  top:17px;
+  box-shadow: 5px 5px 5px #a6a6a6;
+}
+
+.help2 {
+  position:absolute;
+  background-color:#f2f2f2;
+  width:110px;
+  left:240px;
+  display:none;
+  z-index:6;
+  top:17px;
+  box-shadow: 5px 5px 5px #a6a6a6;
+}
+
+.menuitem {
+  margin-left:-40px;
+}
+
+.menuitem:hover {
+  background-color:#cce8ff;
+}
+
+.menuitem2 {
+  margin-left:-40px;
+  text-align:center;
+}
+
+.menuitem2:hover {
+  background-color:#cce8ff;
+}
+
+.nav {
+  height:30px;
+  position:absolute;
+  top:-13px;
+  left:-40px;
+}

@@ -1,0 +1,156 @@
+.dlgbox {
+  border: 1px solid #0f7fd6;
+  box-shadow: 10px 10px 10px #d6d6d6;
+  box-sizing: border-box;
+  cursor: default;
+  margin: 0 auto;
+  position: absolute;
+  user-select: none;
+  left:37%;
+  top:17%;
+}
+
+.mask {
+  display:none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.font {
+  z-index:10;
+}
+
+.dailogbox {
+  height:400px;
+  width:536px;
+}
+
+.titlebar{
+  background-color: white;
+  font-size: 1.3em;
+  height: 30px;
+}
+
+.title {
+  left: 10px;
+  position: absolute;
+  top:-20px;
+}
+
+.close-btn {
+  color: gray;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 30px;
+  top:-20px;
+}
+
+.titlebar .close-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.notepad-dlg-main {
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  padding: 12px;
+  position: relative;
+}
+
+.main {
+  height: 466px;
+  font-size:16px;
+}
+
+.btn1 {
+  height: 28px;
+  width: 86px;
+  position:absolute;
+  top:420px;
+  right:100px;
+}
+
+.btn2{
+  height:28px;
+  width:86px;
+  position:absolute;
+  top:420px;
+  right:10px;
+}
+
+.text {
+  width:95%;
+}
+
+.example {
+  font-family:Arial;
+  font-style:normal;
+  font-weight:normal;
+  font-size:16px;
+  margin-top:0;
+}
+
+.list {
+  background-color: white;
+  border: 1px solid #828790;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 116px;
+  overflow-y: scroll;
+  width: 98%;
+  font-size:10px;
+  margin-top:0;
+}
+
+.listbox {
+  user-select: none;
+  width: 200px;
+  float:left;
+}
+
+.item {
+  line-height: 16px;
+  margin-left: -40px;
+}
+
+.item:hover{
+  background-color:#cce8ff;
+}
+
+.font-family,
+.font-style,
+.font-size {
+  display:inline-block;
+  margin-top:10px;
+}
+
+.font-family {
+  width:176px;
+}
+
+.font-style {
+  width:132px;
+  margin-left:5px;
+}
+
+.font-size {
+  width:64px;
+  margin-left:5px;
+}
+
+.script {
+  position:absolute;
+  top:350px;
+  left:15px;
+}
+
+.examplebox {
+  height:100px;
+  width:200px;
+}
